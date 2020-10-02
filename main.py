@@ -1,5 +1,5 @@
-dia = int(input("dia: "))
-mes = input("mes: ")
+dia = int(input())
+mes = input()
 
 
 if(mes == "enero"):
