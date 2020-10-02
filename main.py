@@ -1,5 +1,6 @@
-dia = int(input(dia: ))
-mes = input(mes: )
+dia = int(input("dia: "))
+mes = input("mes: ")
+
 
 if(mes == "enero"):
     if(dia < 20):
@@ -25,10 +26,10 @@ elif(mes == "mayo"):
     if(dia < 21):
         print("tauro")
     else:
-        print("gemini")
+        print("geminis")
 elif(mes == "junio"):
     if(dia < 21):
-        print("gemini")
+        print("geminis")
     else:
         print("cancer")
 elif(mes == "julio"):
