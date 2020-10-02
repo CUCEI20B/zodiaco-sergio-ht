@@ -1,62 +1,62 @@
 dia = int(input())
-mes = input()
+mes = int(input())
 
-if (mes == "enero"):
+if (mes == 1):
     if (dia < 21):
         print("capricornio")
     else:
         print("acuario")
-elif(mes == "febrero"):
+elif(mes == 2):
     if (dia < 19):
         print("acuario")
     else:
         print("piscis")
-elif(mes == "marzo"):
+elif(mes == 3):
     if (dia < 21):
         print("piscis")
     else:
         print("aries")
-elif(mes == "abril"):
+elif(mes == 4):
     if (dia < 21):
         print("aries")
     else:
         print("tauro")
-elif(mes == "mayo"):
+elif(mes == 5):
     if (dia < 21):
         print("tauro")
     else:
         print("geminis")
-elif(mes == "junio"):
+elif(mes == 6):
     if (dia < 22):
         print("geminis")
     else:
         print("cancer")
-elif(mes == "julio"):
+elif(mes == 7):
     if (dia < 23):
         print("cancer")
     else:
         print("leo")
-elif(mes == "agosto"):
+elif(mes == 8):
     if (dia < 23):
         print("leo")
     else:
         print("virgo")
-elif(mes == "septiembre"):
+elif(mes == 9):
     if (dia < 23):
         print("virgo")
     else:
         print("libra")
-elif(mes == "octubre"):
+elif(mes == 10):
     if (dia < 23):
         print("libra")
     else:
         print("escorpio")
-elif(mes == "noviembre"):
+elif(mes == 11):
     if (dia < 23):
         print("escorpio")
     else:
         print("sagitario")
-elif(mes == "diciembre"):
+elif(mes == 12):
     if (dia < 22):
         print("sagitario")
     else:
